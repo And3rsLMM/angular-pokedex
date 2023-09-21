@@ -1,0 +1,22 @@
+<div class="content">
+    <h1>Pokedex</h1>
+  
+    <ol id="pokemonList" class="pokemons">
+      <li *ngFor="let pokemon of pokemons" class="pokemon {{ pokemon.type }}">
+        <span class="number">#{{ pokemon.number }}</span>
+        <span class="name">{{ pokemon.name }}</span>
+  
+        <div class="detail">
+          <ol class="types">
+            <li class="type" *ngFor="let type of pokemon.types">{{ type }}</li>
+          </ol>
+  
+          <img [src]="pokemon.photo" [alt]="pokemon.name">
+        </div>
+      </li>
+    </ol>
+  
+    <div class="pagination">
+      <button id="loadMoreButton" type="button" (click)="loadMore()" *ngIf="showLoadMore">Load More</button>
+    </div>
+</div>

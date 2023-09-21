@@ -1,27 +1,54 @@
-# AngularPokedex
+# Angular Pokedex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+![Angular Logo](https://angular.io/assets/images/logos/angular/angular.svg)
 
-## Development server
+This is a simple Angular project that utilizes the [PokéAPI](https://pokeapi.co/) to create a Pokédex application. This application allows users to search for and view information about various Pokémon species.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
+To get started with this project, follow these steps:
 
-## Code scaffolding
+1. **Clone the Repository**:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    ```bash
+    git clone https://github.com/yourusername/angular-pokedex.git
+    ```
 
-## Build
+2. **Install Dependencies**:
+Navigate to the project directory and install the required dependencies using npm (Node Package Manager):
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    ```bash
+    cd angular-pokedex
+    npm install
+    ```
+3. **Run the Application**:
+    Start the Angular development server to run the application locally:
+    
+    ```bash
+    ng serve
+    ```
+    The application will be available at http://localhost:4200/. Open your web browser and navigate to this URL.
 
-## Running unit tests
+## Usage
+Once the application is running, you can use it to:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+View Pokemons: A Pokémon card display information about that Pokémon, like name, photo and types.
 
-## Running end-to-end tests
+Features
+Pokemon Database: Easily load more Pokemons by pressing the button 
+"load more".
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Basic Information: View comprehensive information about each Pokemon, including its name, photo, and type.
 
-## Further help
+## Technologies Used
+This project is built using the following technologies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Angular](https://angular.io/): A powerful JavaScript framework for building web applications.
+
+[PokeAPI](https://pokeapi.co/): An open-source API for retrieving Pokémon data.
+
+## Contributing
+Contributions to this project are welcome! If you find any issues or have ideas for improvements, please open an issue or create a pull request. Make sure to follow the Contributing Guidelines.
+
+## Acknowledgments
+Special thanks to the PokéAPI for providing the Pokémon data used in this project.
+Happy Pokémon searching! 🐾🔍
